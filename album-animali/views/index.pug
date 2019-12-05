@@ -1,0 +1,18 @@
+doctype html 
+html 
+ head 
+   title #{title} 
+   meta(name="viewport" content="width=device-width, initial-scale=1")  
+   body 
+     header 
+       h1 #{title}  
+     br   
+     article     
+       each a in animali 
+         div 
+           img(src=`${a.foto}`)       
+           h2 #{a.razza_animale}        
+           h2 #{a.specie_animale}      
+           h2 #{a.area_provenienza} 
+           a(href=`/album?id_figurina=${a.id_figurina}`)  View Profile         
+           hr
