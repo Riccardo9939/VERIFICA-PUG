@@ -1,0 +1,28 @@
+{
+ "animals": [
+   {
+        "id_figurina": "1",
+        "razza_animale": "panda-orso",
+        "specie_animale": "panda",
+        "area_provenienza": "Francia",
+        "rischio_estinzione": false,
+        "foto": "https://i.imgur.com/j5Q7Hbo.png"
+   },
+   {
+        "id_figurina": "2",
+        "razza_animale": "panda-orso",
+        "specie_animale": "panda",
+        "area_provenienza": "Germania",
+        "rischio_estinzione": true,
+        "foto": "https://i.imgur.com/j5Q7Hbo.png"
+   },
+   {
+        "id_figurina": "3",
+        "razza_animale": "panda-orso",
+        "specie_animale": "panda",
+        "area_provenienza": "Italia",
+        "rischio_estinzione": true,
+        "foto": "https://i.imgur.com/j5Q7Hbo.png"
+   }
+ ]
+}
