@@ -14,7 +14,7 @@
         "specie_animale": "panda",
         "area_provenienza": "Germania",
         "rischio_estinzione": true,
-        "foto": "https://i.imgur.com/j5Q7Hbo.png"
+        "foto": "https://i.imgur.com/82z3Drs.jpg"
    },
    {
         "id_figurina": "3",
@@ -22,7 +22,7 @@
         "specie_animale": "panda",
         "area_provenienza": "Italia",
         "rischio_estinzione": true,
-        "foto": "https://i.imgur.com/j5Q7Hbo.png"
+        "foto": "https://i.imgur.com/KsXZmyv.png"
    }
  ]
 }

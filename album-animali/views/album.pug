@@ -1,13 +1,19 @@
-doctype 
-html  
-  head 
-   title #{title} 
-   meta(name="viewport" content="width=device-width, initial-scale=1")  
-   body   
-     header 
-       h1 #{title}   
-     div      
-       img(src=`${an.foto}`)     
-       h2 #{an.id_figurina}     
-       h2 #{an.specie_animale}   
-       h2 #{an.razza_animale}
+doctype html
+html
+ head
+   title #{title}
+   link(rel='stylesheet', href='/css/style.css')
+   meta(name="viewport" content="width=device-width, initial-scale=1")
+ body
+   header
+         h1 #{title}
+   article
+     ul
+       li
+         a(href=`/`) INDEX
+   br
+   div
+     img(src=`${an.foto}`)
+     h2 #{an.id_figurina}
+     h2 #{an.specie_animale}
+     h2 #{an.razza_animale}

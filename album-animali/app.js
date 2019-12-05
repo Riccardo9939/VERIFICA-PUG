@@ -6,6 +6,7 @@ var cors = require('cors');
 app.use(cors()); 
 
 app.set('view engine', 'pug');
+app.use(express.static(__dirname + '/public'));
 
 app.get('/api/album-animali', (req, res) => {
    res.sendFile(path.join(__dirname, 'animali.json'));
